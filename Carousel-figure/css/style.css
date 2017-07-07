@@ -1,0 +1,85 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end reset browser styles */
+
+/*导航栏开始*/
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+nav{
+    width: 1200px;
+    height: 50px;
+}
+.nav a{
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family:"Microsoft YaHei";
+    text-align: center;
+    line-height: 50px;
+    color: #666;
+    border-radius: 3px;
+}
+.active{
+    background: #FFCC00;
+}
+/*导航栏结束*/
+
+/*轮播图开始*/
+.banner{
+    width: 1200px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-slide{
+    width: 1200px;
+    height: 460px;
+    float: left;
+    background-repeat:no-repeat;
+    display: none;
+}
+.slide1{
+    background-image: url("../img/1.jpg");
+}
+.slide2{
+    background-image: url("../img/3.jpg");
+}
+.slide3{
+    background-image: url("../img/4.jpg");
+}
+.slide4{
+    background-image: url("../img/5.jpg");
+}
+.slide-active{
+    display: block;
+}
