@@ -1,0 +1,54 @@
+/** {
+   outline: 1px solid red !important;
+  }*/
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.title {
+	font-size: 57px;
+	color: #fff;
+	background: #33bebe;
+	padding: 77px 0 18px 40px;
+	margin-bottom: 80px;
+}
+
+.description {
+	color: #7c8b88;
+	margin-left: 50px;
+}
+
+.back {
+  background: #33bebe;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+}

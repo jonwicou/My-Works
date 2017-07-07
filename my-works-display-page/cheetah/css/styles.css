@@ -1,0 +1,70 @@
+/* 添加 CSS */
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+  font-family: 'Microsoft Yahei' 宋体;
+  font-size: 16px;
+  width: 980px;
+}
+
+.container{
+  width: 300px;
+  border: 1px solid #cecece;
+  margin: 15px auto;
+  padding: 0 15px 15px 15px;
+  box-shadow: 8px 8px 8px #e6e6e6;
+  border-radius: 10px;
+  background: linear-gradient(#FFD700,#fff);
+}
+
+.animalName{
+  font-size: 2em;
+}
+
+.info{
+  border: 1px solid #000;
+  width: 300px;
+  padding: 0 15px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.interestOfKnowledge{
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list span{
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.back {
+  background: #FFD700;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+}

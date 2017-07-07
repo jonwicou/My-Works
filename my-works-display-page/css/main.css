@@ -1,0 +1,205 @@
+/*commen style*/
+
+html {
+    font-family: Helvetica, Arial, 'Microsoft YaHei';
+    font-size: 16px;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*common header start*/
+
+.header,
+.section_banner,
+.display {
+    border-bottom: 3px solid #f93;
+}
+
+.header_container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.header h1,
+.header h3 {
+    text-transform: uppercase;
+    color: #f93;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+
+/*common header end*/
+
+
+/* Mobile phone start*/
+
+
+/*header start*/
+
+body {
+    max-width: 100%;
+    background: linear-gradient(#000, #ff4500, #000);
+}
+
+.logo_container,
+.title_container {
+    width: 480px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.title_container h1 {
+    font-size: 1.5rem;
+}
+
+.title_container h3 {
+    display: none;
+}
+
+
+/*header end*/
+
+
+/*section banner start*/
+
+figcaption {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_banner img {
+    width: 100%;
+}
+
+
+/*section banner end*/
+
+
+/*works display start*/
+
+.works h2 {
+    color: #f93;
+    text-align: center;
+}
+
+.works img {
+	cursor: pointer;
+}
+
+/*works display end*/
+
+
+/*footer start*/
+
+.copyright {
+    color: #ccc;
+    margin-top: 20px;
+}
+
+
+/*footer end*/
+
+
+/* Mobile phone end*/
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .header,
+    .section_banner,
+    .display {
+        border-bottom: none;
+    }
+}
+
+
+/*big screen start*/
+
+@media (min-width: 940px) {
+    /*header start*/
+    body {
+        max-width: 980px;
+        margin: auto;
+    }
+    .header_container {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%
+    }
+    .logo_container,
+    .title_container {
+        height: 200px;
+    }
+    .logo_container {
+        width: 50%;
+        text-align: left;
+    }
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+    .title_container {
+        width: 50%;
+    }
+    .title_container h1 {
+        font-size: 3.6rem;
+        font-weight: bold;
+        line-height: 100px;
+    }
+    .title_container h3 {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .header h1,
+    .header h3 {
+        color: #f93;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    /*header end*/
+    /*work display start*/
+    .header,
+    .section_banner,
+    .display {
+        border-bottom: none;
+    }
+    /*work display end*/
+    /*footer start*/
+    .copyright {
+        color: #ccc;
+        margin-top: 20px;
+    }
+    /*footer end*/
+}
+
+
+/*big screen end
