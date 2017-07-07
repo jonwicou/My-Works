@@ -1,5 +1,9 @@
 # 这是我的作品集
 
+## frontend-nanodegree-resume
+
+>这是我的个人电子简历，用模板构造，利用了JS的对象构建数据，实现动态生成和删除，利用jQuery对DOM的查找技术和插入和删除的代码进行html的构建显示。
+
 ## my-works-display-page
 
 > 一个响应式作品集网页,无论是手机，平板还是大型屏幕都能自动适应，网页使用bootstrap框架搭建，应用了flex弹性盒进行导航栏构建。使用bootstrap的Carousel轮播图插件，modal插件进行图片点击弹出预览框，图片可点击并且可以直接进入作品页；图片压缩是用grunt工具完成。
